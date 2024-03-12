@@ -36,10 +36,18 @@
                 <nav class="h-full flex items-center">
                     <div class="container mx-auto px-4">
                         <ul class="flex justify-around items-center h-full">
-                            <li><a href="#" class="text-black text-3xl font-medium">Home</a></li>
-                            <li><a href="#" class="text-black text-3xl font-medium">About</a></li>
-                            <li><a href="#" class="text-black text-3xl font-medium">Services</a></li>
-                            <li><a href="#" class="text-black text-3xl font-medium">Contact</a></li>
+                            <li><router-link class="text-black text-3xl font-medium" to="/">
+                                Thông tin
+                            </router-link></li>
+                            <li><router-link class="text-black text-3xl font-medium" to="/mission">
+                                Nhiệm vụ
+                            </router-link></li>
+                            <li><router-link class="text-black text-3xl font-medium" to="">
+                                Tình nguyện viên
+                            </router-link></li>
+                            <li><router-link class="text-black text-3xl font-medium" to="">
+                                Tin tức
+                            </router-link></li>
                         </ul>
                     </div>
                 </nav>
@@ -56,20 +64,20 @@ export default {
     setup() {
         var a = [
             {
-                icon_url: "src/assets/icons/Login.svg",
-                title: "ffff"
+                icon_url: "src/assets/icons/PhoneIcon.svg",
+                title: "0987654321"
             },
             {
-                icon_url: "src/assets/icons/Login.svg",
-                title: "hhhh"
+                icon_url: "src/assets/icons/EmailIcon.svg",
+                title: "Email"
             }, {
                 icon_url: "src/assets/icons/Login.svg",
-                title: "kkk"
+                title: "Login"
             }
         ];
         const social_network_icons = [
             {
-                icon_url: "src/assets/icons/InstaIcon.svg",
+                icon_url: "src/assets/icons/facebookIcon.svg",
 
             },
             {

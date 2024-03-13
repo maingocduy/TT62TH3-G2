@@ -42,10 +42,10 @@
                             <li><router-link class="text-black text-3xl font-medium" to="/mission">
                                 Nhiệm vụ
                             </router-link></li>
-                            <li><router-link class="text-black text-3xl font-medium" to="">
+                            <li><router-link class="text-black text-3xl font-medium" to="/demo1">
                                 Tình nguyện viên
                             </router-link></li>
-                            <li><router-link class="text-black text-3xl font-medium" to="">
+                            <li><router-link class="text-black text-3xl font-medium" to="/demo2">
                                 Tin tức
                             </router-link></li>
                         </ul>

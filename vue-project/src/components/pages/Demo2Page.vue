@@ -10,14 +10,62 @@
         </div>
 
         <!-- Chữ đè lên hình ảnh -->
-        <div class="absolute inset-0 flex items-center justify-center">
-            <p class="container text-white text-6xl font-semibold">Giúp đỡ và thay đổi cuộc sống</p>
-            <p>
-            Thông qua các chuyến đi sứ mệnh y tế, Tổ chức Cứu trợ Y tế Quốc tế cung cấp khả năng tiếp cận các dịch vụ y
-            tiế và giáo dục y tế công cộng bền vững cho cộng dồng chưa được quan tâm và dễ bị tổn thương trên toàn cầu
-            nhằm cải thiện sức khỏe, thể chất và chất lượng cuộc sống của những nhóm cư dân cần nhất. Tham gia sứ mệnh!
-          </p>
-          <button type="button" class="btn btn-outline-warning"> Tham gia cùng chúng tôi </button>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+            <p class="container text-white text-6xl font-semibold mb-4">Giúp đỡ và thay đổi cuộc sống</p>
+            <div class="container text-white text-lg">
+                <p>
+                    Thông qua các chuyến đi sứ mệnh y tế, Tổ chức Cứu trợ Y tế Quốc tế cung cấp khả năng tiếp cận các dịch vụ y <br>
+                    tiếp và giáo dục y tế công cộng bền vững cho cộng đồng chưa được quan tâm và dễ bị tổn thương trên toàn cầu <br>
+                    nhằm cải thiện sức khỏe, thể chất và chất lượng cuộc sống của những nhóm cư dân cần nhất.
+                </p>
+                <br>
+            </div>
+            <button class="border px-6  py-4 font-medium"> Tham gia cùng chúng tôi </button>
+            <br>
+            <div class="border bg-[#FF993A] px-8 py-1 font-medium">
+                <div class="container text-center max-w-[1135px] mx-auto text-[32px]">
+                    <p>Hãy tham gia cùng cũng tôi</p>
+                </div>
+                <div class="container text-center max-w-[1135px] mx-auto text-[17px]">
+                    <p>Những người có cuộc sống tốt được cải thiện hoặc cứu nhờ sức khỏe cộng đồng, giáo dục và can thiệp y tế <br>
+                là nhờ vào lòng hảo tâm và những đóng góp từ thiện của bạn.</p>
+                </div>
+                <div class="col-4 d-flex flex-column justify-content-center">
+                <button class="border px-6  py-4 font-medium"> Đóng góp ngay </button>
+                </div>
+            </div>
+            <div class="image-overlay-2 text-center">
+        <div class="first-aid text-warning">
+          <img src="./img/first-aid.png" alt="" />
+          <h3>Theo dõi hoạt động của chúng tôi</h3>
+        </div>
+        <div class="number-info">
+          <div class="container text-white">
+            <div class="row">
+              <div class="col-6">
+                <h3>3,000</h3>
+                <p>Cộng tác viên tham gia</p>
+              </div>
+              <div class="col-6">
+                <h3>300</h3>
+                <p>Địa điểm được hỗ trợ</p>
+              </div>
+              <div class="col-12">
+                <h2>19,000</h2>
+                <p>Người được giúp đỡ</p>
+              </div>
+              <div class="col-6">
+                <h3>$6,000,000</h3>
+                <p>Hỗ trợ y tế và sức khỏe</p>
+              </div>
+              <div class="col-6">
+                <h3>$3,000,000</h3>
+                <p>Giáo dục và đào tạo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
         </div>
         
     </div>

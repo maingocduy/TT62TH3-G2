@@ -35,11 +35,29 @@
                 </div>
             </div>
             <br>
-        <div class="image-overlay-2 text-center">
         <div>
-            <img src="../../assets/HomeImage/cuuthuong.png" alt="">
+            <div class="flex justify-between mt-14">
+                <div class="bg-[#CBC9C9] text-[#333] w-[48%] p-6 rounded-3xl ">
+                <h5 class="text-center mb-3 text-4xl font-semibold">3000</h5>
+                <p class="text-2xl text-center">Cộng tác viên than gia</p>
+            </div>
+            <div class="bg-[#FF993A] text-white w-[48%] p-6 rounded-3xl ">
+                <h5 class="text-center mb-3 text-4xl font-semibold">300</h5>
+                <p class="text-2xl text-center">Địa điểm được hỗ trợ</p>
+            </div>
+            <div class="bg-[#CBC9C9] text-[#333] w-[48%] p-6 rounded-3xl ">
+                <h5 class="text-center mb-3 text-4xl font-semibold">1900</h5>
+                <p class="text-2xl text-center">Người đucợ giúp đỡ</p>
+            </div>
+            <div class="bg-[#FF993A] text-white w-[48%] p-6 rounded-3xl ">
+                <h5 class="text-center mb-3 text-4xl font-semibold">$6,000,000</h5>
+                <p class="text-2xl text-center">Hỗ trợ y tế và sức khỏe</p>
+            </div>
+            <div class="bg-[#CBC9C9] text-[#333] w-[48%] p-6 rounded-3xl ">
+                <h5 class="text-center mb-3 text-4xl font-semibold">$3,000,000</h5>
+                <p class="text-2xl text-center">Giáo dục và đào tạo</p>
+            </div>
         </div>
-        
         </div>
         </div>
     </div>

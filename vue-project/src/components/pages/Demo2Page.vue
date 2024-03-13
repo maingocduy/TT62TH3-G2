@@ -45,8 +45,8 @@
     </div>
     <div class="max-w-[1135px] mx-auto">
         <div class="container text-center max-w-[1135px] mx-auto text-[32px]">
-            <p class="my-8">Bạn có thể trở thành một phần trong chuyến đi</p>
-            <p class="container text-center max-w-[1135px] mx-auto text-[17px]">Chuyến đi của chúng tôi luôn có công việc phù hợp cho mọi người</p>
+            <p >Bạn có thể trở thành một phần trong chuyến đi</p>  
+            <p class=" text-[17px]">Chuyến đi của chúng tôi luôn có công việc phù hợp cho mọi người</p>
         </div>
     </div>
     <div class="flex flex-wrap justify-around my-20 ">

@@ -96,7 +96,7 @@
         </div>
 
         <div class="flex flex-wrap justify-around my-20 ">
-            <div class=" mb-10 text-center" v-for="(item, index) in data" :key="item.id">
+            <div class=" mb-10 text-center" v-for="(item) in data" :key="item.id">
                 <div class="relative">
                     <img class="w-[330px] h-[190px] object-cover" :src=item.image_url alt="">
                     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">

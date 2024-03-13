@@ -81,10 +81,10 @@ export default {
 
             },
             {
-                icon_url: "src/assets/icons/InstaIcon.svg",
+                icon_url: "src/assets/icons/PhoneIcon.svg",
 
             }, {
-                icon_url: "src/assets/icons/InstaIcon.svg",
+                icon_url: "src/assets/icons/EmailIcon.svg",
 
             }
         ]

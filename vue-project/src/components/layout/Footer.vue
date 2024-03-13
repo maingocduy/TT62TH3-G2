@@ -26,8 +26,8 @@
                     <ul class="flex justify-start">
                         <li><img src="../../assets/icons/facebookIcon.svg" alt="" class="inline mr-3"></li>
                         <li><img src="../../assets/icons/PhoneIcon.svg" alt="" class="inline mr-3"></li>
-                        <li><img src="../../assets/icons/PhoneIcon.svg" alt="" class="inline mr-3"></li>
-                        <li><img src="../../assets/icons/PhoneIcon.svg" alt="" class="inline mr-3"></li>
+                        <li><img src="../../assets/icons/EmailIcon.svg" alt="" class="inline mr-3"></li>
+                        <li><img src="../../assets/icons/Login.svg" alt="" class="inline mr-3"></li>
                     </ul>
                 </div>
                 <div class="my-7">

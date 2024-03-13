@@ -34,40 +34,14 @@
                 <button class="border px-6  py-4 font-medium"> Đóng góp ngay </button>
                 </div>
             </div>
-            <div class="image-overlay-2 text-center">
-        <div class="first-aid text-warning">
-          <img src="./img/first-aid.png" alt="" />
-          <h3>Theo dõi hoạt động của chúng tôi</h3>
-        </div>
-        <div class="number-info">
-          <div class="container text-white">
-            <div class="row">
-              <div class="col-6">
-                <h3>3,000</h3>
-                <p>Cộng tác viên tham gia</p>
-              </div>
-              <div class="col-6">
-                <h3>300</h3>
-                <p>Địa điểm được hỗ trợ</p>
-              </div>
-              <div class="col-12">
-                <h2>19,000</h2>
-                <p>Người được giúp đỡ</p>
-              </div>
-              <div class="col-6">
-                <h3>$6,000,000</h3>
-                <p>Hỗ trợ y tế và sức khỏe</p>
-              </div>
-              <div class="col-6">
-                <h3>$3,000,000</h3>
-                <p>Giáo dục và đào tạo</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            <br>
+        <div class="image-overlay-2 text-center">
+        <div>
+            <img src="../../assets/HomeImage/cuuthuong.png" alt="">
         </div>
         
+        </div>
+        </div>
     </div>
     <div class="max-w-[1135px] mx-auto">
         <div class="container text-center max-w-[1135px] mx-auto text-[32px]">

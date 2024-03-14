@@ -41,7 +41,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 325,
+          "DockedWidth": 364,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "WebApplication3\\Controllers\\SponsorController.cs",
               "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\SponsorController.cs",
               "RelativeToolTip": "WebApplication3\\Controllers\\SponsorController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAqwCkAAABEAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwB4AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T07:13:16.469Z",
               "EditorCaption": ""
@@ -120,7 +120,7 @@
           ]
         },
         {
-          "DockedWidth": 75,
+          "DockedWidth": 36,
           "SelectedChildIndex": 0,
           "Children": [
             {

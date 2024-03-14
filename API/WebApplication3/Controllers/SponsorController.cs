@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
+using System.Net.Mail;
 using WebApplication3.Controllers.Data;
 using WebApplication3.Entities;
 
@@ -24,15 +26,16 @@ namespace WebApplication3.Controllers
         {
             // Kiểm tra xem người dùng đã tồn tại hay chưa
             try
-            { 
+            {
                 // Process sponsorship registration
-                var address = new System.Net.Mail.MailAddress(spon.contact);
-                
+                var emailValidation = new EmailAddressAttribute();
+            
+
                 if (_db.sponsor.Any(u => u.contact == spon.contact))
                 {
                     return BadRequest("your email already in db");
                 }
-                if (address.Address == spon.contact)
+                if (!emailValidation.IsValid(spon.contact))
                 {
                     ModelState.AddModelError("Email", "Invalid email format");
                     return BadRequest(ModelState);

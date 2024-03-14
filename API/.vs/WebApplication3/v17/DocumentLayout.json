@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\controllers\\sponsorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\sponsorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\entities\\sponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\entities\\sponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\controllers\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 325,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T11:24:40.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SponsorController.cs",
+              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\SponsorController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\SponsorController.cs",
+              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\SponsorController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\SponsorController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAqwCkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T07:13:16.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T11:32:45.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication3\\appsettings.json",
+              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\appsettings.json",
+              "RelativeToolTip": "WebApplication3\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-12T11:33:53.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Program.cs",
+              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Program.cs",
+              "RelativeToolTip": "WebApplication3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T11:17:09.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApplication3\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T11:15:59.704Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 75,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "account.cs",
+              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Entities\\account.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Entities\\account.cs",
+              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Entities\\account.cs",
+              "RelativeToolTip": "WebApplication3\\Entities\\account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T11:23:09.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "sponsor.cs",
+              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Entities\\sponsor.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Entities\\sponsor.cs",
+              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Entities\\sponsor.cs",
+              "RelativeToolTip": "WebApplication3\\Entities\\sponsor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T07:10:50.995Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

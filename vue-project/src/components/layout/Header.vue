@@ -76,15 +76,21 @@ export default {
             }
         ];
         const social_network_icons = [
-            {
+        {
                 icon_url: "src/assets/icons/facebookIcon.svg",
 
             },
+            
             {
-                icon_url: "src/assets/icons/PhoneIcon.svg",
+                icon_url: "src/assets/icons/InstaIcon.svg",
 
-            }, {
-                icon_url: "src/assets/icons/EmailIcon.svg",
+            },
+            {
+                icon_url: "src/assets/icons/inIcon.svg",
+
+            }, 
+            {
+                icon_url: "src/assets/icons/YoutubeIcon.svg",
 
             }
         ]

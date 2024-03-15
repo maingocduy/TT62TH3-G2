@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebApplication3.Controllers.Data;
+using WebApplication3.Service.AccountService;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +17,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("AppDbContext"),
                      new MySqlServerVersion(new Version(8, 0, 36))); // Thay thế version MySQL tương ứng
 });
+builder.Services.AddScoped<IAccountService, AccountService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

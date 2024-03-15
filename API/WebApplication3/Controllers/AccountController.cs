@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using WebApplication3.Controllers.Data;
 using WebApplication3.Entities;
+using WebApplication3.Service.AccountService;
 
 namespace WebApplication3.Controllers
 {[Route ("api/[controller]")]
@@ -9,20 +10,20 @@ namespace WebApplication3.Controllers
 
     public class AccountController : Controller
     {
-        private readonly AppDbContext _db;
-        public AccountController (AppDbContext db)
+        private readonly IAccountService accountService ;
+        public AccountController (IAccountService accountService)
         {
-            _db = db;
+            this.accountService = accountService ;
         }
         [HttpGet]
-        public IActionResult GetAllAcc()
+        public async Task<ActionResult<List<account>>> GetAllAcc()
         {
-            var acc = _db.account.ToList();
+            var acc = accountService.GetAllAcc();
             return Ok(acc);
         }
         [HttpGet("{id}")]
-        public IActionResult GetAccount(int id) {
-            var accou = _db.account.Find(id);
+        public async Task<ActionResult<account>> GetAccount(int id) {
+            var accou = accountService.GetAccounts(id);
             if(accou == null)
             {
                 return NotFound("Account not found");
@@ -30,50 +31,35 @@ namespace WebApplication3.Controllers
             return Ok (accou);
         }
         [HttpPost]
-        public IActionResult AddAcount(account acc)
+        public async Task<ActionResult<List<account>>> AddAcount(account acc)
         {
+            var accou = accountService.AddAcount(acc);
             // Kiểm tra xem người dùng đã tồn tại hay chưa
-            if (_db.account.Any(u => u.Username == acc.Username))
+            if (accou == null)
             {
-                return BadRequest("Username is already taken");
+                return NotFound("accont already in db");
             }
-
-            // Tạo đối tượng User từ dữ liệu đầu vào
-            var newAcc = new account
-            {
-                Username = acc.Username,
-                Password = acc.Password // Bạn nên mã hóa mật khẩu trước khi lưu vào cơ sở dữ liệu
-            };
-
-            // Thêm người dùng mới vào cơ sở dữ liệu
-            _db.account.Add(newAcc);
-            _db.SaveChanges();
-
-            return Ok("Registration successful");
+            return Ok(accou);
         }
         [HttpDelete]
-        public IActionResult DeleteAccount(int id)
+        public async Task<ActionResult<List<account>>> DeleteAccount(int id)
         {
-            var acc = _db.account.Find(id);
+            var accou = accountService.DeleteAccount(id);
+            if (accou == null)
+            {
+                return NotFound("Account not found");
+            }
+            return Ok(accou);
+        }
+        [HttpPut]
+        public async Task<ActionResult<List<account>>> UpdatePasswordAcc(account acc)
+        {
+            var account = accountService.UpdatePasswordAcc(acc);
             if (acc == null)
             {
                 return NotFound("Account not found");
             }
-            _db.account.Remove(acc);
-            _db.SaveChanges();
-            return Ok(_db.account.ToList());
-        }
-        [HttpPut]
-        public IActionResult UpdatePasswordAcc(account acc)
-        {
-            var account = _db.account.Find(acc.Id_account);
-            if (acc == null)
-                {
-                    return NotFound("Account not found");
-                }
-            account.Password = acc.Password;
-            _db.SaveChanges();
-            return Ok(_db.account.ToList());
+           return Ok(account);
         }
     }
 }

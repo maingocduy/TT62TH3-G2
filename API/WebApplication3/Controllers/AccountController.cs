@@ -23,7 +23,7 @@ namespace WebApplication3.Controllers
         }
         [HttpGet("{id}")]
         public async Task<ActionResult<account>> GetAccount(int id) {
-            var accou = accountService.GetAccounts(id);
+            var accou =  accountService.GetAccounts(id);
             if(accou == null)
             {
                 return NotFound("Account not found");
@@ -52,7 +52,7 @@ namespace WebApplication3.Controllers
             return Ok(accou);
         }
         [HttpPut]
-        public async Task<ActionResult<List<account>>> UpdatePasswordAcc(account acc)
+        public async Task<ActionResult<List<account>>> UpdatePasswordAcc(int id,account acc)
         {
             var account = accountService.UpdatePasswordAcc(acc);
             if (acc == null)

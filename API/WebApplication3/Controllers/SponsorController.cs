@@ -3,6 +3,8 @@ using System.ComponentModel.DataAnnotations;
 using System.Net.Mail;
 using WebApplication3.Controllers.Data;
 using WebApplication3.Entities;
+using WebApplication3.Service.AccountService;
+using WebApplication3.Service.SponsorService;
 
 namespace WebApplication3.Controllers
 {
@@ -10,102 +12,86 @@ namespace WebApplication3.Controllers
     [ApiController]
     public class SponsorController : Controller
     {
-        private readonly AppDbContext _db;
-        public SponsorController(AppDbContext db)
+        private readonly ISponsorService sponsorService;
+        public SponsorController(ISponsorService sponsorService)
         {
-            _db = db;
+            this.sponsorService = sponsorService;
         }
         [HttpGet]
-        public ActionResult GetSponsor()
+        public async Task<ActionResult<List<sponsor>>> GetAllSponsor()
         {
-            var spon = _db.sponsor.ToList();
+            var spon = sponsorService.GetAllSponsor();
             return Ok(spon);
         }
         [HttpPost]
-        public IActionResult AddSponsor(sponsor spon)
+        public async Task<ActionResult<string>> AddSponsor(sponsor spon)
         {
             // Kiểm tra xem người dùng đã tồn tại hay chưa
-            try
+            var result = await sponsorService.AddSponsor(spon);
+            if (result == "Sponsor not found")
             {
-                // Process sponsorship registration
-                var emailValidation = new EmailAddressAttribute();
-            
-
-                if (_db.sponsor.Any(u => u.contact == spon.contact))
-                {
-                    return BadRequest("your email already in db");
-                }
-                if (!emailValidation.IsValid(spon.contact))
-                {
-                    ModelState.AddModelError("Email", "Invalid email format");
-                    return BadRequest(ModelState);
-                }
-                else
-                {
-                    // Trường hợp xử lý thất bại vì một lý do nào đó
-                    return Ok("Sponsorship registered successfully");
-                }
+                return NotFound("Sponsor not found");
             }
-            catch (Exception ex)
+            else if (result == "Email invalid")
             {
-                // Xử lý ngoại lệ bất kỳ nếu có
-                return StatusCode(500, "pls enter ur infor");
+                return BadRequest("Invalid email format");
             }
-        }
-        private bool IsValidEmail(string email)
-        { 
-                var address = new System.Net.Mail.MailAddress(email);
-                return address.Address == email;
-        }
-        private bool ProcessSponsorshipRegistration(sponsor sponsorship)
-        {
-            // Đây là nơi triển khai logic xử lý đăng ký tài trợ
-
-            // Ví dụ: Kiểm tra xem tài trợ có hợp lệ không
-            if (IsSponsorshipValid(sponsorship))
+            else if (result == "Email already exists in the database")
             {
-                // Nếu tất cả điều kiện hợp lệ, có thể thực hiện việc lưu trữ tài trợ vào cơ sở dữ liệu hoặc hệ thống khác
-                // Ở đây, chúng ta chỉ giả định rằng việc xử lý thành công nếu dữ liệu tài trợ là hợp lệ
-                // Trong ứng dụng thực tế, bạn sẽ có thể thực hiện các thao tác lưu trữ, gửi email xác nhận, vv...
-                return true;
+                return BadRequest("Email already exists in the database");
+            }
+            else if (result == "Sponsor added successfully")
+            {
+                return Ok("Sponsor added successfully");
             }
             else
             {
-                // Trường hợp dữ liệu tài trợ không hợp lệ, trả về false
-                return false;
+                return StatusCode(500, "An error occurred while updating the sponsor");
             }
         }
-        private bool IsSponsorshipValid(sponsor sponsorship)
-        {
-            // Kiểm tra tính hợp lệ của dữ liệu tài trợ ở đây
-            // Đây chỉ là một ví dụ, trong thực tế bạn cần thêm các kiểm tra phù hợp với yêu cầu của ứng dụng
-
-            // Ví dụ: Kiểm tra xem các trường bắt buộc có được điền đầy đủ không
-            if (string.IsNullOrEmpty(sponsorship.name) || string.IsNullOrEmpty(sponsorship.contact))
-            {
-                return false;
-            }
-            else if (_db.sponsor.Any(u => u.contact == sponsorship.contact))
-            {
-                return false;
-            }
-
-            // Kiểm tra các điều kiện khác nếu cần
-
-            // Nếu tất cả điều kiện hợp lệ, trả về true
-            return true;
-        }
+        
         [HttpDelete]
-        public IActionResult DeleteAccount(int id)
+        public async Task<ActionResult<List<sponsor>>> DeleteSponsor(int id)
         {
-            var spon = _db.sponsor.Find(id);
+            var spon = sponsorService.DeleteSponsor(id);
             if (spon == null)
             {
                 return NotFound("Account not found");
             }
-            _db.sponsor.Remove(spon);
-            _db.SaveChanges();
-            return Ok(_db.sponsor.ToList());
+            return Ok(spon);
         }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<sponsor>> GetSponsor(int id)
+        {
+            var spon = sponsorService.GetSponsor(id);
+            if (spon == null)
+            {
+                return NotFound("Account not found");
+            }
+            return Ok(spon);
+        }
+        [HttpPut]
+        
+            public async Task<ActionResult<string>> UpdateSponsor(int id, sponsor sponsor)
+            {
+                var result = await sponsorService.UpdateSponsors(id, sponsor);
+                if (result == "Sponsor not found")
+                {
+                    return NotFound("Sponsor not found");
+                }
+                else if (result == "Invalid email format")
+                {
+                    return BadRequest("Invalid email format");
+                }
+                else if (result == "Sponsor updated successfully")
+                {
+                    return Ok("Sponsor updated successfully");
+                }
+                else
+                {
+                    return StatusCode(500, "An error occurred while updating the sponsor");
+                }
+            }
+        
     }
 }

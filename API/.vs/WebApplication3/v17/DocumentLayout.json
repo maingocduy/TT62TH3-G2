@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\service\\accountservice\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\service\\accountservice\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\service\\accountservice\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\service\\accountservice\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\service\\sponsorservice\\sponsorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\service\\sponsorservice\\sponsorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\controllers\\sponsorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\sponsorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\service\\sponsorservice\\isponsorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\service\\sponsorservice\\isponsorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\entities\\sponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\entities\\sponsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFACB0AB-08B1-4144-BA6F-40B3148E3F73}|WebApplication3\\WebApplication3.csproj|c:\\users\\mai duy\\source\\repos\\tt62th3-g2\\api\\webapplication3\\controllers\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,64 +41,53 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 417,
+          "DockedWidth": 606,
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SponsorService.cs",
+              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Service\\SponsorService\\SponsorService.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Service\\SponsorService\\SponsorService.cs",
+              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Service\\SponsorService\\SponsorService.cs",
+              "RelativeToolTip": "WebApplication3\\Service\\SponsorService\\SponsorService.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwFUAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T04:23:33.847Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Service\\AccountService\\IAccountService.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Service\\AccountService\\IAccountService.cs",
-              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Service\\AccountService\\IAccountService.cs",
-              "RelativeToolTip": "WebApplication3\\Service\\AccountService\\IAccountService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
+              "Title": "ISponsorService.cs",
+              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Service\\SponsorService\\ISponsorService.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Service\\SponsorService\\ISponsorService.cs",
+              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Service\\SponsorService\\ISponsorService.cs",
+              "RelativeToolTip": "WebApplication3\\Service\\SponsorService\\ISponsorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T14:18:59.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-16T04:24:00.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Service\\AccountService\\AccountService.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Service\\AccountService\\AccountService.cs",
-              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Service\\AccountService\\AccountService.cs",
-              "RelativeToolTip": "WebApplication3\\Service\\AccountService\\AccountService.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAgwCEAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T14:22:30.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Program.cs",
               "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Program.cs",
               "RelativeToolTip": "WebApplication3\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T11:17:09.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T11:17:09.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SponsorController.cs",
-              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\SponsorController.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\SponsorController.cs",
-              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\SponsorController.cs",
-              "RelativeToolTip": "WebApplication3\\Controllers\\SponsorController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAqwB4AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T07:13:16.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Controllers\\Data\\AppDbContext.cs",
@@ -118,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication3\\appsettings.json",
@@ -130,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WebApplication3\\WeatherForecast.cs",
@@ -143,52 +124,33 @@
           ]
         },
         {
-          "DockedWidth": 358,
+          "DockedWidth": 62,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "SponsorController.cs",
+              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\SponsorController.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\Controllers\\SponsorController.cs",
+              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\SponsorController.cs",
+              "RelativeToolTip": "WebApplication3\\Controllers\\SponsorController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAADwvygAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T11:23:34.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Controllers\\AccountController.cs",
               "RelativeToolTip": "WebApplication3\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAKAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwDsAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T11:24:40.806Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 24,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "account.cs",
-              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Entities\\account.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Entities\\account.cs",
-              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Entities\\account.cs",
-              "RelativeToolTip": "WebApplication3\\Entities\\account.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T11:23:09.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "sponsor.cs",
-              "DocumentMoniker": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Entities\\sponsor.cs",
-              "RelativeDocumentMoniker": "WebApplication3\\Entities\\sponsor.cs",
-              "ToolTip": "C:\\Users\\mai duy\\source\\repos\\TT62TH3-G2\\API\\WebApplication3\\Entities\\sponsor.cs",
-              "RelativeToolTip": "WebApplication3\\Entities\\sponsor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T07:10:50.995Z"
+              "WhenOpened": "2024-03-16T14:47:22.259Z"
             }
           ]
         }

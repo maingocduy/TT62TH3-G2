@@ -13,7 +13,7 @@ namespace WebApplication3.Entities
 
         public string address { get; set; }
 
-        public float contributionAmount { get; set; }
+        public int contributionAmount { get; set; }
 
 
     }

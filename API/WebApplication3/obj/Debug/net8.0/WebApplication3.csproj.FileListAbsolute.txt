@@ -73,3 +73,7 @@ C:\Users\mai duy\source\repos\TT62TH3-G2\API\WebApplication3\obj\Debug\net8.0\re
 C:\Users\mai duy\source\repos\TT62TH3-G2\API\WebApplication3\obj\Debug\net8.0\WebApplication3.pdb
 C:\Users\mai duy\source\repos\TT62TH3-G2\API\WebApplication3\obj\Debug\net8.0\WebApplication3.genruntimeconfig.cache
 C:\Users\mai duy\source\repos\TT62TH3-G2\API\WebApplication3\obj\Debug\net8.0\ref\WebApplication3.dll
+C:\Users\mai duy\source\repos\TT62TH3-G2\API\WebApplication3\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\mai duy\source\repos\TT62TH3-G2\API\WebApplication3\bin\Debug\net8.0\System.Web.Http.dll
+C:\Users\mai duy\source\repos\TT62TH3-G2\API\WebApplication3\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\mai duy\source\repos\TT62TH3-G2\API\WebApplication3\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

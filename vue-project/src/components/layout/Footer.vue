@@ -89,10 +89,11 @@
                         <span class="inline-block mb-3 text-2xl">Họ Tên:</span>
                         <input type="text" class="w-full border-[3px] rounded-[20px] py-2 text-[#333]">
                     </div>
-                    <div class="my-3">
+                    <div class="">
                         <span class="inline-block mb-3 text-2xl">Email:</span>
-                        <input type="text" class="w-full border-[3px] rounded-[20px] py-2">
+                        <input type="text" class="w-full border-[3px] rounded-[20px] py-2 text-[#333]">
                     </div>
+
                 </div>
                 <div class="my-7">
                     <button type="button" class="px-10 py-2 rounded-[40px] border-[3px] border-[#FFB800]"><a

@@ -1,6 +1,23 @@
-<script setup>
+<!-- <script setup>
 import { RouterView } from 'vue-router'
+</script> -->
+<script>
+import axios from 'axios';
 
+export default {
+  // Các tùy chọn của component
+  mounted() {
+    axios.get('https://api.example.com/data')
+      .then(response => {
+        // Xử lý phản hồi
+        console.log(response.data);
+      })
+      .catch(error => {
+        // Xử lý lỗi
+        console.error('Lỗi khi truy vấn dữ liệu:', error);
+      });
+  }
+}
 </script>
 
 <template>

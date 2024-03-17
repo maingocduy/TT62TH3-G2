@@ -19,15 +19,15 @@
                     <span class="text-2xl">bstn@abc.org</span>
                 </div>
                 <div class="my-7">
-                    <img src="../../assets/icons/PhoneIcon.svg" alt="" class="inline mr-3">
+                    <img src="../../assets/icons/MapIcon.svg" alt="" class="inline mr-3">
                     <span class="text-2xl">Hà Nội</span>
                 </div>
                 <div class="my-7">
                     <ul class="flex justify-start">
-                        <li><img src="../../assets/icons/facebookIcon.svg" alt="" class="inline mr-3"></li>
-                        <li><img src="../../assets/icons/PhoneIcon.svg" alt="" class="inline mr-3"></li>
-                        <li><img src="../../assets/icons/EmailIcon.svg" alt="" class="inline mr-3"></li>
-                        <li><img src="../../assets/icons/Login.svg" alt="" class="inline mr-3"></li>
+                        <li><img src="../../assets/icons/facebookIcon1.svg" alt="" class="inline mr-3"></li>
+                        <li><img src="../../assets/icons/IntagramIcon1.svg" alt="" class="inline mr-3"></li>
+                        <li><img src="../../assets/icons/InIcon1.svg" alt="" class="inline mr-3"></li>
+                        <li><img src="../../assets/icons/YoutubeIcon1.svg" alt="" class="inline mr-3"></li>
                     </ul>
                 </div>
                 <div class="my-7">
